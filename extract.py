@@ -37,6 +37,7 @@ def update_mp3_tags(filepath: str, cover_path: Path, config: GameConfig):
         except:
             audio = EasyID3()
             audio.save(filepath)
+            audio = EasyID3(filepath)
 
         audio["title"] = title
         audio["tracknumber"] = track_num
