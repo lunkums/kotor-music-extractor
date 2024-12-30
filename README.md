@@ -1,7 +1,5 @@
 # KotOR Music Extractor
 
-![Album Cover](cover.png)
-
 Extracts and processes music files from Star Wars: Knights of the Old Republic, converting them to properly tagged MP3 files.
 
 ## Requirements
